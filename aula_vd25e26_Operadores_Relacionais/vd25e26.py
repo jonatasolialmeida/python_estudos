@@ -11,19 +11,23 @@ OPERADORES RELACIONAIS
 # Um sinal de <=, estou "perguntando" se o valor da esquerda é menor ou igual que o da direita
 # Um sinal de >=, estou "perguntando" se o valor da esquerda é maior ou igual que o da direita
 
-idade = 25 # << estou afirmando que a idade é 25
+idade = 25  # << estou afirmando que a idade é 25
 mais_idade = 30
-igualdade = idade == mais_idade # << estou perguntando se a idade é igual a mais_idade
+# << estou perguntando se a idade é igual a mais_idade
+igualdade = idade == mais_idade
 print(igualdade)
-menor = idade < mais_idade # << estou perguntando se a idade é menor que mais_idade
+menor = idade < mais_idade  # << estou perguntando se a idade é menor que mais_idade
 print(menor)
-maior = idade > mais_idade # << estou perguntando se a idade é maior que mais_idade
+maior = idade > mais_idade  # << estou perguntando se a idade é maior que mais_idade
 print(maior)
-menor_igual = idade <= mais_idade # << estou perguntando se a idade é menor ou igual que mais_idade
+# << estou perguntando se a idade é menor ou igual que mais_idade
+menor_igual = idade <= mais_idade
 print(menor_igual)
-maior_igual = idade >= mais_idade # << estou perguntando se a idade é maior ou igual que mais_idade
+# << estou perguntando se a idade é maior ou igual que mais_idade
+maior_igual = idade >= mais_idade
 print(maior_igual)
-diferente = idade != mais_idade # << estou perguntando se a idade é diferente de mais_idade
+# << estou perguntando se a idade é diferente de mais_idade
+diferente = idade != mais_idade
 print(diferente)
 
 nome = input("Digite seu nome: ")
@@ -40,11 +44,14 @@ else:
 # # and, or, not
 # # in (está dentro de), not in (não está dentro de)
 
-exmp1 = 5 > 3 and 5 < 10 # << estou perguntando se 5 é maior que 3 e se 5 é menor que 10 (and)
+# << estou perguntando se 5 é maior que 3 e se 5 é menor que 10 (and)
+exmp1 = 5 > 3 and 5 < 10
 print(exmp1)
-exmp2 = 5 > 3 or 5 < 10 # << estou perguntando se 5 é maior que 3 ou se 5 é menor que 10 (or)
+# << estou perguntando se 5 é maior que 3 ou se 5 é menor que 10 (or)
+exmp2 = 5 > 3 or 5 < 10
 print(exmp2)
-exmp3 = not 5 > 3 # << estou perguntando se 5 é maior que 3, e ao adicionar (not) caso seja verdadeiro, retorna falso
+# << estou perguntando se 5 é maior que 3, e ao adicionar (not) caso seja verdadeiro, retorna falso
+exmp3 = not 5 > 3
 print(exmp3)
 
 a = ''
